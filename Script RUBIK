@@ -7,7 +7,6 @@ CREATE TABLE  RUBIK_PRODUCTIONS.PELICULAS(
                 , MOVIE_TITLE	VARCHAR(20)	NOT NULL
                 , FIRST_COUNTRY	VARCHAR(20)	NOT NULL
                 , CATEGORY	VARCHAR(20)	NOT NULL
-	
                 , BRAND	VARCHAR(20)	NOT NULL
                 , TOTAL_INVESTMENT	DECIMAL	NOT NULL
                 , ID_STREMING	INT 	NOT NULL
@@ -19,14 +18,13 @@ CREATE TABLE  RUBIK_PRODUCTIONS.CINES(
                          , MOVIE_TITLE	                          VARCHAR(20) NOT NULL
                          , FIRST_COUNTRY	           VARCHAR(20) NOT NULL
                          , CATEGORY	                             VARCHAR(20) NOT NULL
-                 
                          , BRAND	                               VARCHAR(20) NOT NULL
                          , FECHA              	DATE    NOT NULL
                          , GROSS_OPENDWEEKEND	    NUMERIC  NOT NULL
                          , ADMISSIONS_OPENDWEEKEND	INT NOT NULL
                          , COST_TICKET	        BIGINT NOT NULL
                          , Q_TICKETS_UPTODATE	INT   NOT NULL
-			 , GROSS_UPTODATE	  INT 
+			 
                          , ID_pelicula	        INT NOT NULL
 	                 , PRIMARY KEY (ID_CINE)
 );
